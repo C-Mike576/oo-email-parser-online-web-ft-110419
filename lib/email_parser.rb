@@ -12,7 +12,9 @@ class EmailAddressParser
   end
   
   def parse
-    
+    new_arr=[]
+    new_arr = @emails.split(",").strip
+    new_arr
   end
   
 end
